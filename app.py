@@ -3,7 +3,7 @@ import sentry_sdk
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 sentry_sdk.init(
-    dsn="https://517a65330fcadd720fb968866f74862e@o45906861742381056.ingest.us.sentry.io/45906861742381056",  # Replace with your actual DSN from Sentry
+    dsn="https://2933fb41e043424a185fbdac0597c7c5@o4509681672454145.ingest.us.sentry.io/4509681901633537",  # Replace with your actual DSN from Sentry
     integrations=[FlaskIntegration()],
     traces_sample_rate=1.0,
     debug=True
