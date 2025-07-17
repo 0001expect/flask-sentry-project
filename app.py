@@ -15,7 +15,7 @@ app = Flask(__name__)
 def index():
     return "Welcome to Flask + Sentry"
 
-@app.route('/err')
+@app.route('/error')
 def trigger_err():
     division_by_zero = 1 / 0
     return str(division_by_zero)
